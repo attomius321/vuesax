@@ -7,7 +7,7 @@
       <td :colspan="colspan">
         <div class="content-tr-expand">
           <slot name="content"></slot>
-
+          <div> is working </div>
           <button
             v-if="close"
             class="tr-expand--close"
