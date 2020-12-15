@@ -1,5 +1,6 @@
 <template>
   <transition name="tr-expand">
+    <div>Is working</div>
     <tr
       v-if="active"
       class="tr-expand"
